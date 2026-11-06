@@ -1,0 +1,31 @@
+---
+---
+
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Long-lived site-level identity: an accessible NYU violet accent.
+:root {
+  --global-theme-color: #57068c;
+  --global-hover-color: #3d0464;
+  --global-code-bg-color: rgba(87, 6, 140, 0.05);
+}

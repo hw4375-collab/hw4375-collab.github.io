@@ -1,0 +1,22 @@
+cv:
+  name: Hongwei (Alex) Wang
+  label: MSc Student
+  location: Abu Dhabi, United Arab Emirates
+  summary: MSc student with an academic background in mathematics and interests in formal methods and artificial intelligence.
+  social_networks:
+    - network: GitHub
+      username: hw4375-collab
+  sections:
+    Education:
+      - institution: New York University Abu Dhabi
+        location: Abu Dhabi, United Arab Emirates
+        area: Interdisciplinary Data Science and Artificial Intelligence
+        studyType: MSc
+        highlights:
+          - Current program.
+    Academic Background:
+      - name: Mathematics
+        summary: Academic background in mathematics.
+    Research Interests:
+      - name: Mathematical foundations and AI
+        keywords: Dependent Type Theory, Homotopy Type Theory, Higher Category Theory, Formalized Mathematics, AI Reasoning, Autoformalization, Trustworthy Artificial Intelligence
