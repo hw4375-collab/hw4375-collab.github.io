@@ -11,7 +11,7 @@ My research interests sit at the intersection of mathematical structure, formal 
 
 ## Mathematical Foundations
 
-I am interested in **dependent type theory**, **homotopy type theory**, and **higher category theory** as languages for expressing mathematical structure, equivalence, and composition. Formalized mathematics is compelling here not only as a form of verification, but also as a way to make mathematical ideas precise and communicable. For example, type theory distinguishes an identity \(x =_A y\) from an equivalence \(A \simeq B\).
+I am interested in **dependent type theory**, **homotopy type theory**, and **higher category theory** as languages for expressing mathematical structure, equivalence, and composition. Formalized mathematics is compelling here not only as a form of verification, but also as a way to make mathematical ideas precise and communicable. For example, type theory distinguishes an identity $$ x =_A y $$ from an equivalence $$ A \simeq B $$.
 
 ## AI for Formal Mathematics
 

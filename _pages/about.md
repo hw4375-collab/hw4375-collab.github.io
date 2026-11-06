@@ -45,4 +45,4 @@ This website is being established as a long-term academic home. Research updates
 
 - [GitHub: hw4375-collab](https://github.com/hw4375-collab)
 - [New York University Abu Dhabi](https://nyuad.nyu.edu/)
-- [MSc in Interdisciplinary Data Science and Artificial Intelligence](https://nyuad.nyu.edu/en/academics/graduate/masters-programs/ms-in-interdisciplinary-data-science-and-artificial-intelligence.html)
+- [MSc in Interdisciplinary Data Science and Artificial Intelligence](https://nyuad.nyu.edu/en/academics/graduate-and-phd/msc-interdisciplinary-data-science-and-artificial-intelligence.html)
