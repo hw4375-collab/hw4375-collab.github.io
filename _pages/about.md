@@ -2,8 +2,6 @@
 layout: about
 title: Home
 permalink: /
-nav: true
-nav_order: 1
 subtitle: MSc student in Interdisciplinary Data Science and Artificial Intelligence, New York University Abu Dhabi
 
 profile:
