@@ -7,7 +7,7 @@ first_name: Hongwei
 middle_name: Alex
 last_name: Wang
 contact_note: >
-  For research correspondence, please use the GitHub profile listed below. A preferred academic email address will be added when available.
+  For research correspondence, please use the GitHub profile listed below.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic homepage of Hongwei (Alex) Wang, an MSc student at New York University Abu Dhabi working across mathematics, formal methods, and AI reasoning.
 footer_text: >
