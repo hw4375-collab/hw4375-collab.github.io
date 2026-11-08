@@ -7,18 +7,104 @@ nav: true
 nav_order: 2
 ---
 
-My research interests sit at the intersection of mathematical structure, formal verification, and artificial intelligence. The sections below describe directions of study and research interest; they are not claims about completed results.
+My research interests concern the mathematical foundations of reliable reasoning, with particular emphasis on type theory, formalized mathematics, and artificial intelligence.
 
-## Mathematical Foundations
+A central question motivating my work is:
 
-I am interested in **dependent type theory**, **homotopy type theory**, and **higher category theory** as languages for expressing mathematical structure, equivalence, and composition. Formalized mathematics is compelling here not only as a form of verification, but also as a way to make mathematical ideas precise and communicable. For example, type theory distinguishes an identity $$ x =_A y $$ from an equivalence $$ A \simeq B $$.
+**How can mathematical meaning be represented, transformed, and verified within formal reasoning systems?**
 
-## AI for Formal Mathematics
+I approach this question through three interconnected research directions. The descriptions below record research interests and ongoing exploration, not completed results or established claims.
 
-I am interested in **autoformalization**, **machine-checked proofs**, and **semantic faithfulness**: how a natural-language mathematical statement can be represented in a formal system without losing the structure that matters. This includes studying methods that expose the assumptions and translation choices behind AI-assisted formal reasoning.
+---
 
-## Formal Methods for Trustworthy AI
+## 1. Mathematical Foundations
 
-I am interested in **formal verification**, **reliable reasoning**, and **AI-agent verification**. A central question is how machine-checkable specifications and proofs can make an AI system’s reasoning easier to inspect, qualify, and trust within clearly stated boundaries.
+### Type Theory, Homotopy Theory, and Higher Category Theory
 
-This page will develop alongside ongoing study and research. It intentionally records directions rather than a list of established research results.
+I am interested in the structural foundations of mathematics, particularly dependent type theory, homotopy type theory, and higher category theory.
+
+These subjects provide mathematical languages for studying objects, constructions, proofs, and equivalences.
+
+An important aspect of my current work is understanding how such structures can be represented within proof assistants, including Lean 4 and Cubical Agda.
+
+I am particularly interested in the role of paths, equivalences, and higher-dimensional structures in formal mathematical reasoning.
+
+**Topics of interest**
+
+- Dependent Type Theory
+- Homotopy Type Theory
+- Cubical Type Theory
+- Higher Category Theory
+- Formalized Homotopy Theory
+
+---
+
+## 2. AI for Formal Mathematics
+
+### Autoformalization and Semantic Faithfulness
+
+Modern proof assistants can verify formal mathematical proofs with a high degree of logical precision. However, the correctness of a formal proof does not, by itself, establish that the formalized statement expresses the intended mathematical meaning.
+
+This distinction becomes especially important when artificial intelligence is used to translate mathematical language into formal representations.
+
+I am interested in the process:
+
+$$
+\text{Natural Language}
+\longrightarrow
+\text{Mathematical Language}
+\longrightarrow
+\text{Formal Code}
+\longrightarrow
+\text{Machine Verification}.
+$$
+
+My work explores how to evaluate and improve the faithfulness of these transformations.
+
+In particular, I am interested in distinguishing two complementary questions:
+
+**Formal correctness:** Does the generated proof satisfy the rules of the formal system?
+
+**Semantic faithfulness:** Does the generated formal statement accurately represent the intended mathematical problem?
+
+I am exploring how mathematical structure, type systems, and formal verification can contribute to more reliable AI-assisted mathematical reasoning.
+
+**Topics of interest**
+
+- Mathematical Autoformalization
+- Semantic Faithfulness
+- Formal Verification of AI-Generated Proofs
+- Mathematical Language Representation
+- Human–AI Collaboration in Mathematics
+
+---
+
+## 3. Formal Methods for Trustworthy AI
+
+### Reliable Reasoning and Verified AI Systems
+
+Beyond mathematical theorem proving, I am interested in how formal methods can support the development of trustworthy artificial intelligence.
+
+In particular, formal specifications can describe properties that an AI system is expected to satisfy, while verification techniques can provide evidence that specific implementations or behaviors satisfy those properties.
+
+I am interested in exploring these methods in the context of AI reasoning systems and autonomous agents.
+
+Potential applications include the verification of decision-making procedures, constraints on AI-agent behavior, and the formal specification of safety-critical workflows.
+
+This direction aims to connect mathematical foundations with practical challenges in reliable AI.
+
+**Topics of interest**
+
+- Formal Specification
+- AI Reasoning Verification
+- Verified AI Agents
+- Type-Theoretic Approaches to Reliability
+- Formal Methods for Decision-Making Systems
+
+---
+
+## Research Philosophy
+
+I view formal verification not only as a technique for establishing logical correctness, but also as part of a broader effort to understand the relationship between mathematical structures, their representations, and their intended meaning.
+
+My long-term interest is in mathematical frameworks that make machine reasoning more transparent, interpretable, and verifiable.
