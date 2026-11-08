@@ -1,0 +1,117 @@
+# Public source for assets/pdf/Hongwei_Wang_Academic_CV.pdf.
+# Derived from the reviewed CV record; reference PDFs remain in ignored reference/cv/.
+cv:
+  name: Hongwei Wang
+  headline: MSc Student in Interdisciplinary Data Science and Artificial Intelligence
+  location: Abu Dhabi, United Arab Emirates
+  email: hw4375@nyu.edu
+  website: https://hw4375-collab.github.io/
+  social_networks:
+    - network: GitHub
+      username: hw4375-collab
+  sections:
+    Education:
+      - institution: New York University Abu Dhabi
+        area: Interdisciplinary Data Science and Artificial Intelligence
+        degree: MSc
+        start_date: 2026-08
+        end_date: 2028-08
+        location: Abu Dhabi, United Arab Emirates
+        highlights:
+          - "Expected completion: August 2028."
+      - institution: Xi'an Jiaotong-Liverpool University
+        area: Mathematics
+        degree: BSc
+        start_date: 2022-09
+        end_date: 2026-08
+        location: China
+        highlights:
+          - Undergraduate dual-degree educational background; the accompanying University of Liverpool entry records the second awarded degree.
+      - institution: University of Liverpool
+        area: Applied Mathematics
+        date: 2026
+        location: United Kingdom
+        highlights:
+          - First Class Honours Bachelor's Degree in Applied Mathematics.
+    Research Experience:
+      - company: New York University Abu Dhabi
+        position: MIDSAI Research Participant — Data Science & AI
+        start_date: 2026-07
+        end_date: present
+        location: Abu Dhabi, United Arab Emirates
+        highlights:
+          - Investigating mathematical autoformalization and semantic faithfulness through controlled evaluation of AI-generated formalizations and Lean-assisted verification workflows.
+          - "Mentor: Pierre Youssef, CIDSAI."
+      - company: New York University Abu Dhabi
+        position: Topological Quantum Computation Formalization
+        start_date: 2026
+        end_date: present
+        location: Abu Dhabi, United Arab Emirates
+        highlights:
+          - Exploring Cubical Agda formalizations of homotopy-theoretic constructions relevant to topological quantum computation.
+          - "Academic guidance: Urs Schreiber."
+      - company: Xi'an Jiaotong-Liverpool University
+        position: Categorical Algebra and Homotopy Theory — Final Year Project
+        start_date: 2025
+        end_date: 2026
+        location: China
+        highlights:
+          - Studied algebraic topology and homotopy theory from a categorical perspective, connecting these topics with dependent type theory and Lean 4 formalization.
+          - "Advisor: Alastair Darby."
+      - company: Westlake University and Yau Mathematical Sciences Center, Tsinghua University
+        position: Lean 4 Formalization Benchmark for 1-Category Theory
+        date: 2025-12
+        location: China
+        highlights:
+          - Constructed and manually verified Lean 4 formalizations of classical results in 1-category theory for evaluating formal proof generation.
+          - Rongge Xu.
+      - company: Xi'an Jiaotong-Liverpool University
+        position: AI-Assisted Mathematical Reasoning and Education — Research Assistant
+        start_date: 2024-10
+        end_date: 2025-04
+        location: China
+        highlights:
+          - Developed a Ramsey-type self-play experiment and AI-assisted tools for mathematical problem solving and visualization.
+          - "Advisor: Jinsong Xu."
+      - company: Westlake University / Institute for Theoretical Sciences
+        position: Visiting Scholar
+        start_date: 2025-09
+        end_date: 2026-03
+        location: China
+        highlights:
+          - Xing Gu's group.
+    Selected Projects:
+      - name: Monoidal Category Formalization — Lean 4
+        date: 2026
+        summary: Formalizations involving monoidal categories, categorical constructions, and strictification-related structures using dependent types and Mathlib.
+      - name: Semantic Boundary — LLM Reasoning Verification and Faithfulness
+        date: 2026
+        summary: Controlled benchmarks comparing direct LLM reasoning, self-checking, and Lean-assisted verification, with attention to reasoning errors and semantic mistranslation.
+      - name: "[FalconVerifier — AI Reasoning Verification](https://github.com/hw4375-collab/FalconVerifer)"
+        date: 2026
+        summary: Public verification prototype that separates model-generated interpretation from deterministic formal verification and records machine-checkable assurance artifacts.
+      - name: Arabic Pregroup Grammar — Lean 4
+        date: 2026
+        summary: Typed Arabic grammatical representations with pregroup-style types and machine-checkable reductions; initial VSO/SVO examples are formalized as sentence-level proof certificates.
+    Academic Talks and Activities:
+      - label: When Proof No Longer Means Understanding — New York University Abu Dhabi (5 November 2026)
+        details: Academic talk on formal correctness and mathematical understanding.
+      - label: ∞-type Café Summer School — Lecturer (August 2026)
+        details: Three-lecture, six-hour online series on infinity categories and formal reasoning.
+      - label: AI for Mathematics Seminar — Founder and Lecturer (June 2026)
+        details: Xi'an Jiaotong-Liverpool University. Organized and taught introductory Lean 4, type theory, and formalized-mathematics material.
+      - label: Undergraduate Category Theory Seminar — Organizer and Lecturer (2025)
+        details: Xi'an Jiaotong-Liverpool University. Led a reading seminar based on Tom Leinster's Basic Category Theory.
+      - label: XJTLU Winter Pure Mathematics Seminar — Founder, Organizer, and Lecturer (2024–2025)
+        details: Xi'an Jiaotong-Liverpool University.
+      - label: IWoAT Summer School — Participant (August 2026)
+        details: Stable Homotopy Theory.
+    Technical and Mathematical Skills:
+      - label: Formal Methods
+        details: Lean 4, Mathlib, formal verification, theorem proving, dependent type theory.
+      - label: Mathematics
+        details: Higher Category Theory, Homotopy Theory, Algebraic Topology, Type Theory, Formal Semantics.
+      - label: AI and Computing
+        details: Python, Git, LLM evaluation, benchmark design, autoformalization, AI reasoning verification.
+      - label: Additional Tools
+        details: LaTeX, Cubical Agda.

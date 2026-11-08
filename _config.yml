@@ -252,7 +252,7 @@ exclude:
   - assets/html/
   - assets/img/
   - assets/jupyter/
-  - assets/pdf/
+  - assets/pdf/example_pdf.pdf
   - assets/plotly/
   - assets/rendercv/
   - assets/video/

@@ -12,6 +12,7 @@ assets/libs/
 assets/rendercv/rendercv_output/*.typ
 al-folio-upgrade-report.md
 MIGRATION_INVENTORY.md
+reference/
 node_modules/
 output/playwright/
 test-results/

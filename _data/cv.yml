@@ -1,8 +1,10 @@
 cv:
   name: Hongwei (Alex) Wang
-  label: MSc Student
+  label: MSc Student in Interdisciplinary Data Science and Artificial Intelligence
+  email: hw4375@nyu.edu
   location: Abu Dhabi, United Arab Emirates
-  summary: MSc student with an academic background in mathematics and interests in formal methods and artificial intelligence.
+  website: https://hw4375-collab.github.io/
+  summary: Master's student with an academic background in pure mathematics, working across type theory, formalized mathematics, and reliable AI reasoning.
   social_networks:
     - network: GitHub
       username: hw4375-collab
@@ -12,11 +14,65 @@ cv:
         location: Abu Dhabi, United Arab Emirates
         area: Interdisciplinary Data Science and Artificial Intelligence
         studyType: MSc
+        start_date: 2026-08
+        end_date: 2028-08
         highlights:
-          - Current program.
-    Academic Background:
-      - name: Mathematics
-        summary: Academic background in mathematics.
-    Research Interests:
-      - name: Mathematical foundations and AI
-        keywords: Dependent Type Theory, Homotopy Type Theory, Higher Category Theory, Formalized Mathematics, AI Reasoning, Autoformalization, Trustworthy Artificial Intelligence
+          - Expected completion: August 2028.
+      - institution: Xi'an Jiaotong-Liverpool University
+        location: China
+        area: Mathematics
+        studyType: Bachelor of Science
+        start_date: 2022-09
+        end_date: 2026-08
+        highlights:
+          - Undergraduate dual-degree educational background; the accompanying University of Liverpool entry records the second awarded degree.
+      - institution: University of Liverpool
+        location: United Kingdom
+        area: Applied Mathematics
+        studyType: First Class Honours Bachelor's Degree
+        start_date: 2026
+        end_date: 2026
+    Research Experience:
+      - label: MIDSAI Research Participant — Data Science & AI (July 2026–Present)
+        details: "New York University Abu Dhabi · Mentor: Pierre Youssef, CIDSAI. Investigating mathematical autoformalization and semantic faithfulness through controlled evaluation of AI-generated formalizations and Lean-assisted verification workflows."
+      - label: Topological Quantum Computation Formalization (2026–Present)
+        details: "New York University Abu Dhabi · Academic guidance: Urs Schreiber. Exploring Cubical Agda formalizations of homotopy-theoretic constructions relevant to topological quantum computation."
+      - label: Categorical Algebra and Homotopy Theory — Final Year Project (2025–2026)
+        details: "Xi'an Jiaotong-Liverpool University · Advisor: Alastair Darby. Studied algebraic topology and homotopy theory from a categorical perspective, connecting these topics with dependent type theory and Lean 4 formalization."
+      - label: Lean 4 Formalization Benchmark for 1-Category Theory (December 2025)
+        details: Westlake University and Yau Mathematical Sciences Center, Tsinghua University · Rongge Xu. Constructed and manually verified Lean 4 formalizations of classical results in 1-category theory for evaluating formal proof generation.
+      - label: AI-Assisted Mathematical Reasoning and Education — Research Assistant (October 2024–April 2025)
+        details: "Xi'an Jiaotong-Liverpool University · Advisor: Jinsong Xu. Developed a Ramsey-type self-play experiment and AI-assisted tools for mathematical problem solving and visualization."
+      - label: Visiting Scholar (September 2025–March 2026)
+        details: Westlake University / Institute for Theoretical Sciences · Xing Gu's group.
+    Selected Projects:
+      - label: Monoidal Category Formalization — Lean 4 (2026)
+        details: Formalizations involving monoidal categories, categorical constructions, and strictification-related structures using dependent types and Mathlib.
+      - label: Semantic Boundary — LLM Reasoning Verification and Faithfulness (2026)
+        details: Controlled benchmarks comparing direct LLM reasoning, self-checking, and Lean-assisted verification, with attention to reasoning errors and semantic mistranslation.
+      - label: FalconVerifier — AI Reasoning Verification (2026)
+        details: Public verification prototype that separates model-generated interpretation from deterministic formal verification and records machine-checkable assurance artifacts.
+      - label: Arabic Pregroup Grammar — Lean 4 (2026)
+        details: Typed Arabic grammatical representations with pregroup-style types and machine-checkable reductions; initial VSO/SVO examples are formalized as sentence-level proof certificates.
+    Academic Talks and Activities:
+      - label: When Proof No Longer Means Understanding — New York University Abu Dhabi (5 November 2026)
+        details: Academic talk on formal correctness and mathematical understanding.
+      - label: ∞-type Café Summer School — Lecturer (August 2026)
+        details: Three-lecture, six-hour online series on infinity categories and formal reasoning.
+      - label: AI for Mathematics Seminar — Founder and Lecturer (June 2026)
+        details: Xi'an Jiaotong-Liverpool University. Organized and taught introductory Lean 4, type theory, and formalized-mathematics material.
+      - label: Undergraduate Category Theory Seminar — Organizer and Lecturer (2025)
+        details: Xi'an Jiaotong-Liverpool University. Led a reading seminar based on Tom Leinster's Basic Category Theory.
+      - label: XJTLU Winter Pure Mathematics Seminar — Founder, Organizer, and Lecturer (2024–2025)
+        details: Xi'an Jiaotong-Liverpool University.
+      - label: IWoAT Summer School — Participant (August 2026)
+        details: Stable Homotopy Theory.
+    Technical and Mathematical Skills:
+      - label: Formal Methods
+        details: Lean 4, Mathlib, formal verification, theorem proving, dependent type theory.
+      - label: Mathematics
+        details: Higher Category Theory, Homotopy Theory, Algebraic Topology, Type Theory, Formal Semantics.
+      - label: AI and Computing
+        details: Python, Git, LLM evaluation, benchmark design, autoformalization, AI reasoning verification.
+      - label: Additional Tools
+        details: LaTeX, Cubical Agda.
