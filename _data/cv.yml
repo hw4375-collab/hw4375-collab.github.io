@@ -17,7 +17,7 @@ cv:
         start_date: 2026-08
         end_date: 2028-08
         highlights:
-          - Expected completion: August 2028.
+          - "Expected completion: August 2028."
       - institution: Xi'an Jiaotong-Liverpool University
         location: China
         area: Mathematics
